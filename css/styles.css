@@ -1,0 +1,68 @@
+﻿/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style for the main title */
+h1 {
+    color: #2e8b57; /* Dark green color */
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Subtitle styling */
+h2 {
+    color: #2e8b57; /* Same green for a cohesive look */
+    font-size: 1.8em;
+    margin-top: 15px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 15px auto;
+    max-width: 800px; /* Limits paragraph width for readability */
+}
+
+/* Styling for links */
+a {
+    color: #4682b4; /* Steel blue color */
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #2e8b57; /* Change color on hover for effect */
+        text-decoration: underline;
+    }
+
+    /* Styling for the download link */
+    a[download] {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: #2e8b57; /* Dark green for the button */
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        a[download]:hover {
+            background-color: #3cb371; /* Slightly lighter green on hover */
+        }
+
+/* Image styling */
+img {
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    max-width: 90%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
